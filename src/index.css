@@ -1,13 +1,25 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: W95FA;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+@font-face {
+  font-family: W95FA;
+  src: url("https://cdn.glitch.com/ab2515f5-46a5-4d6b-9757-b7f6f20cc638%2FW95FA.otf?v=1629837049242")
+      format("opentype"),
+    url("https://cdn.glitch.com/ab2515f5-46a5-4d6b-9757-b7f6f20cc638%2FW95FA.otf?v=1629837049242")
+      format("truetype");
+}
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.flower {
+  image-rendering: pixelated;
+  height: 55px;
+  width: auto;
 }

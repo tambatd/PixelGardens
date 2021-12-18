@@ -1,0 +1,7 @@
+.garden {
+  height: 450px;
+  width: 700px;
+  background-color: #4b8c42;
+  border: dashed 0.5px black;
+  border-radius: 5px;
+}

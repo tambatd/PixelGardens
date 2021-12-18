@@ -1,17 +1,31 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+import { Mainnet, DAppProvider, Config, Mumbai } from "@usedapp/core";
+
+const config: Config = {
+  readOnlyChainId: Mumbai.chainId,
+  readOnlyUrls: {
+    [Mumbai.chainId]:
+      "https://polygon-mumbai.infura.io/v3/28f924259d824e56a5d444cffd2df7b8",
+  },
+};
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <DAppProvider config={config}>
+      <App />
+    </DAppProvider>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+/*
+Here's flowers for you;
+Hot lavender, mints, savoury, marjoram;
+The marigold, that goes to bed wi' the sun
+And with him rises weeping: these are flowers
+Of middle summer, and I think they are given
+To men of middle age.
+*/

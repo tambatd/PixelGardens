@@ -1,0 +1,198 @@
+.header {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  border-bottom: dashed 1px #1f1f1f;
+  top: 0;
+  width: 100vw;
+  margin-bottom: 30px;
+}
+
+.logo {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+}
+.header p {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.header img {
+  height: 30px;
+  width: auto;
+}
+
+.footer {
+  flex: 1;
+  text-align: right;
+  border-top: dashed 1px #1f1f1f;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
+.footer a {
+  padding-right: 10px;
+}
+
+.mainContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+a:link,
+a:visited,
+a:hover {
+  color: #1f1f1f;
+}
+
+.gardenImg {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  border: solid 1px black;
+}
+
+.gardenText {
+  text-align: center;
+  font-size: 30px;
+}
+
+.gardenTextBox {
+  width: 50%;
+  max-width: 500px;
+}
+
+.gardenImgBox {
+  align-items: center;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  max-width: 500px;
+}
+.gardenTextButton {
+  border-radius: 10px;
+  height: 40px;
+  width: 125px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  background-color: #a0ffa0;
+  margin: 10px;
+}
+
+.gardenTextButtonDiv {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  border-radius: 10px;
+  height: 40px;
+  width: 125px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  background-color: #a0ffa0;
+  margin: 10px;
+}
+
+.gardenButton {
+  border-radius: 10px;
+  height: 40px;
+  width: 125px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  background-color: #a0ffa0;
+  margin: 10px;
+}
+
+.flowerSet {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.flowerRowButton {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.flowerBG {
+  height: 125px;
+  width: 125px;
+  border-radius: 15px;
+  border: solid 1px black;
+  background-color: #4c8a42;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flower {
+  height: 100px;
+  width: auto;
+  image-rendering: pixelated;
+  transform: translate(0px, -15px);
+}
+@media only screen and (max-width: 600px) {
+  .mainContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .gardenImg {
+    max-width: 800px;
+    min-width: 350px;
+    width: 50%;
+    height: auto;
+    border-radius: 15px;
+    border: solid 1px black;
+  }
+  .gardenTextBox {
+    width: 100%;
+  }
+  .gardenButton {
+    border-radius: 10px;
+    height: 40px;
+    width: 125px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    background-color: #a0ffa0;
+    margin: 10px;
+  }
+  .flowerSet {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

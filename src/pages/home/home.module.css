@@ -56,6 +56,13 @@
   right: 0;
 }
 
+.opFlower {
+  height: 100px;
+  width: auto;
+  image-rendering: pixelated;
+  cursor: pointer;
+}
+
 a:link,
 a:visited,
 a:hover {
@@ -160,6 +167,24 @@ a:hover {
   image-rendering: pixelated;
   transform: translate(0px, -15px);
 }
+
+.home {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 1s;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .mainContent {
     display: flex;

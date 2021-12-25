@@ -5,20 +5,23 @@ import pink from "../indexGarden/assets/pink-tulip-stem-squig.png";
 import orange from "../indexGarden/assets/orange-stem-right.png";
 import white from "../indexGarden/assets/white-tulip-stem-x.png";
 import sunflower from "../indexGarden/assets/tulip-red-stem-squig.png";
+import leafs from "../indexGarden/assets/leafs.png";
+import river from "../indexGarden/assets/river.png";
+
 const IndexGarden = () => {
   return (
     <div className={styles.garden} id="garden">
       <Draggable bounds="parent">
-        <img className={styles.flower} draggable="false" src={blue} />
+        <img className={styles.flower} draggable="false" src={river} />
       </Draggable>
       <Draggable bounds="parent">
-        <img className={styles.flower} draggable="false" src={pink} />
+        <img className={styles.flower} draggable="false" src={river} />
       </Draggable>
       <Draggable bounds="parent">
-        <img className={styles.flower} draggable="false" src={pink} />
+        <img className={styles.flower} draggable="false" src={river} />
       </Draggable>
       <Draggable bounds="parent">
-        <img className={styles.flower} draggable="false" src={pink} />
+        <img className={styles.flower} draggable="false" src={leafs} />
       </Draggable>
       <Draggable bounds="parent">
         <img className={styles.flower} draggable="false" src={pink} />
@@ -36,7 +39,7 @@ const IndexGarden = () => {
         <img className={styles.flower} draggable="false" src={orange} />
       </Draggable>
       <Draggable bounds="parent">
-        <img className={styles.flower} draggable="false" src={orange} />
+        <img className={styles.flower} draggable="false" src={leafs} />
       </Draggable>
       <Draggable bounds="parent">
         <img className={styles.flower} draggable="false" src={orange} />
@@ -45,7 +48,7 @@ const IndexGarden = () => {
         <img className={styles.flower} draggable="false" src={orange} />
       </Draggable>
       <Draggable bounds="parent">
-        <img className={styles.flower} draggable="false" src={orange} />
+        <img className={styles.flower} draggable="false" src={leafs} />
       </Draggable>
       <Draggable bounds="parent">
         <img className={styles.flower} draggable="false" src={orange} />
@@ -57,16 +60,16 @@ const IndexGarden = () => {
         <img className={styles.flower} draggable="false" src={white} />
       </Draggable>
       <Draggable bounds="parent">
-        <img className={styles.flower} draggable="false" src={white} />
+        <img className={styles.flower} draggable="false" src={leafs} />
+      </Draggable>
+      <Draggable bounds="parent">
+        <img className={styles.flower} draggable="false" src={leafs} />
       </Draggable>
       <Draggable bounds="parent">
         <img className={styles.flower} draggable="false" src={white} />
       </Draggable>
       <Draggable bounds="parent">
-        <img className={styles.flower} draggable="false" src={white} />
-      </Draggable>
-      <Draggable bounds="parent">
-        <img className={styles.flower} draggable="false" src={white} />
+        <img className={styles.flower} draggable="false" src={leafs} />
       </Draggable>
       <Draggable bounds="parent">
         <img className={styles.flower} draggable="false" src={white} />

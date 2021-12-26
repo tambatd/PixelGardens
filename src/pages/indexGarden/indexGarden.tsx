@@ -12,16 +12,7 @@ const IndexGarden = () => {
   return (
     <div className={styles.garden} id="garden">
       <Draggable bounds="parent">
-        <img className={styles.flower} draggable="false" src={river} />
-      </Draggable>
-      <Draggable bounds="parent">
-        <img className={styles.flower} draggable="false" src={river} />
-      </Draggable>
-      <Draggable bounds="parent">
-        <img className={styles.flower} draggable="false" src={river} />
-      </Draggable>
-      <Draggable bounds="parent">
-        <img className={styles.flower} draggable="false" src={leafs} />
+        <img className={styles.leaf} draggable="false" src={leafs} />
       </Draggable>
       <Draggable bounds="parent">
         <img className={styles.flower} draggable="false" src={pink} />
@@ -39,7 +30,7 @@ const IndexGarden = () => {
         <img className={styles.flower} draggable="false" src={orange} />
       </Draggable>
       <Draggable bounds="parent">
-        <img className={styles.flower} draggable="false" src={leafs} />
+        <img className={styles.leaf} draggable="false" src={leafs} />
       </Draggable>
       <Draggable bounds="parent">
         <img className={styles.flower} draggable="false" src={orange} />
@@ -48,7 +39,7 @@ const IndexGarden = () => {
         <img className={styles.flower} draggable="false" src={orange} />
       </Draggable>
       <Draggable bounds="parent">
-        <img className={styles.flower} draggable="false" src={leafs} />
+        <img className={styles.leaf} draggable="false" src={leafs} />
       </Draggable>
       <Draggable bounds="parent">
         <img className={styles.flower} draggable="false" src={orange} />
@@ -60,16 +51,16 @@ const IndexGarden = () => {
         <img className={styles.flower} draggable="false" src={white} />
       </Draggable>
       <Draggable bounds="parent">
-        <img className={styles.flower} draggable="false" src={leafs} />
+        <img className={styles.leaf} draggable="false" src={leafs} />
       </Draggable>
       <Draggable bounds="parent">
-        <img className={styles.flower} draggable="false" src={leafs} />
+        <img className={styles.leaf} draggable="false" src={leafs} />
       </Draggable>
       <Draggable bounds="parent">
         <img className={styles.flower} draggable="false" src={white} />
       </Draggable>
       <Draggable bounds="parent">
-        <img className={styles.flower} draggable="false" src={leafs} />
+        <img className={styles.leaf} draggable="false" src={leafs} />
       </Draggable>
       <Draggable bounds="parent">
         <img className={styles.flower} draggable="false" src={white} />

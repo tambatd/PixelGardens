@@ -140,6 +140,19 @@
   image-rendering: pixelated;
   height: 55px;
   width: auto;
+  cursor: pointer;
+}
+.river {
+  image-rendering: pixelated;
+  height: 100px;
+  width: auto;
+}
+
+.leaf {
+  image-rendering: pixelated;
+  height: 20px;
+  width: auto;
+  cursor: pointer;
 }
 
 .logout {

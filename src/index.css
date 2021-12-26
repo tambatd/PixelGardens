@@ -24,3 +24,10 @@ code {
   height: 55px;
   width: auto;
 }
+
+body {
+  cursor: url("../public/arrow.cur"), auto;
+}
+button {
+  cursor: url("../public/select.cur"), auto;
+}

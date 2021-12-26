@@ -104,6 +104,7 @@ a:hover {
   justify-items: center;
   background-color: #a0ffa0;
   margin: 10px;
+  cursor: pointer;
 }
 
 .gardenTextButtonDiv {
@@ -123,6 +124,7 @@ a:hover {
   justify-items: center;
   background-color: #a0ffa0;
   margin: 10px;
+  cursor: pointer;
 }
 
 .gardenButton {
@@ -136,6 +138,7 @@ a:hover {
   justify-items: center;
   background-color: #a0ffa0;
   margin: 10px;
+  cursor: pointer;
 }
 
 .flowerSet {
@@ -148,6 +151,7 @@ a:hover {
   display: flex;
   justify-content: center;
   padding-top: 15px;
+  cursor: pointer;
 }
 
 .flowerBG {
@@ -214,6 +218,7 @@ a:hover {
     justify-items: center;
     background-color: #a0ffa0;
     margin: 10px;
+    cursor: pointer;
   }
   .flowerSet {
     flex-direction: column;

@@ -7,9 +7,12 @@ import sunflower1 from "../home/assets/sunflower1.png";
 import blue1 from "../home/assets/blue1.png";
 import IndexGarden from "../indexGarden/indexGarden";
 import Typewriter from "typewriter-effect";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+
+
 const Home = () => {
   const [isReady, setIsReady] = useState(false);
+ const [flowerData, setFlowerData] = useState(null);
 
   const playAudioFile = () => {
     setIsReady(true);
@@ -17,51 +20,42 @@ const Home = () => {
     audio.play();
     console.log("Music Playing");
   };
+
+  
+  
   return (
     <div>
-      {isReady ? (
+   
         <div className={styles.home}>
           <div className={styles.header}>
             <div className={styles.logo}>
               <img src={red} />
-              <p>NFTGardens</p>
+              <p>Pixel Gardens</p>
               <img src={blue} />
-            </div>
-            <div className={styles.gardenButton}>Join the Garden</div>
+            </div> 
           </div>
           <div className={styles.mainContent}>
+          <input type="text" placeholder="Title your garden here!">
+          </input>  
             <div>
               <IndexGarden />
             </div>
             <div className={styles.gardenTextBox}>
               <p className={styles.gardenText}>
-                <Typewriter
-                  options={{
-                    strings:
-                      "Thousands of flowers. Thousands of gardens. Completely on-chain.",
-
-                    autoStart: true,
-                    loop: false,
-                    delay: 50,
-                  }}
-                />
               </p>
               <div className={styles.gardenTextButtonDiv}>
-                <p className={styles.gardenTextButton}>Learn More</p>
+                <p>
+<textarea  placeholder="Write a description here!">
+</textarea>                </p>
               </div>
             </div>
           </div>
 
           <div className={styles.footer}>
-            <a href="/">about</a>
-            <a href="/">Eco-friendly statement</a>
+            <a href="https://twitter.com/iotambat/media">Made by @iotambat</a>
           </div>
         </div>
-      ) : (
-        <div className={styles.mainContent} onClick={() => playAudioFile()}>
-          <img className={styles.opFlower} src={red} />
-        </div>
-      )}
+      
     </div>
   );
 };

@@ -226,3 +226,37 @@ a:hover {
     align-items: center;
   }
 }
+@font-face {
+  font-family: W95FA;
+  src: url("https://cdn.glitch.com/ab2515f5-46a5-4d6b-9757-b7f6f20cc638%2FW95FA.otf?v=1629837049242")
+      format("opentype"),
+    url("https://cdn.glitch.com/ab2515f5-46a5-4d6b-9757-b7f6f20cc638%2FW95FA.otf?v=1629837049242")
+      format("truetype");
+}
+
+input {
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  font-family: W95FA;
+  width: 200px;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+::placeholder {
+  color: black;
+  font-size: 15px;
+}
+
+textarea {
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  font-family: W95FA;
+  width: 200px;
+  font-size: 20px;
+}
+::placeholder {
+  color: black;
+  font-size: 20px;
+}

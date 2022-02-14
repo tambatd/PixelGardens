@@ -8,10 +8,9 @@ const FlowerList = () => {
       <div className={styles.header}>
         <div className={styles.logo}>
           <img src={red} />
-          <p>NFTGardens</p>
+          <p>Pixel Gardens</p>
           <img src={blue} />
         </div>
-        <div className={styles.gardenButton}>Join the Garden</div>
       </div>
     </div>
   );

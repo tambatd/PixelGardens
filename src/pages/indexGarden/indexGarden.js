@@ -44,8 +44,8 @@ const IndexGarden = () => {
 
 {GardenFlowers.map((flwr,index)=>(
   <Draggable 
+      key={index}
       bounds="parent"
-      defaultPosition={{x: (flwr.split(" ")[1] ? flwr.split(" ")[1] : 0)  , y: (flwr.split(" ")[1] ? flwr.split(" ")[2] : 0)  }}
       >
         <img 
         className={styles.flower} 

@@ -2,21 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
-import { Mainnet, DAppProvider, Config, Mumbai } from "@usedapp/core";
-
-const config: Config = {
-  readOnlyChainId: Mumbai.chainId,
-  readOnlyUrls: {
-    [Mumbai.chainId]:
-      "https://polygon-mumbai.infura.io/v3/28f924259d824e56a5d444cffd2df7b8",
-  },
-};
 
 ReactDOM.render(
   <React.StrictMode>
-    <DAppProvider config={config}>
       <App />
-    </DAppProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );

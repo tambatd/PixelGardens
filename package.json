@@ -1,9 +1,9 @@
 {
+  "homepage": "http://{tambatd}.github.io/PixelGardens",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "homepage": "http://{tambatd}.github.io/PixelGardens",
     "@3rdweb/sdk": "^1.27.1",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
